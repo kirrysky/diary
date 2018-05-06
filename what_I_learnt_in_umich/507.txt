@@ -1,0 +1,102 @@
+=========================================================
+507 Intermediate Programming
+适用方向：UX/Data
+课程属性：project base
+
+课程内容
+---------------------------------------------------------
+Lecture  2: Intro to Testing
+Lecture  3: Unit Testing
+Lecture  4: OOP
+Lecture  5: More OOP
+Lecture  6: Git & GitHub
+Lecture  7: More Git
+Lecture  8: Web APIs and Caching
+Lecture  9: Authorization
+Lecture 10: OAuth, Midterm Review
+Lecture 11: Web Scraping
+Lecture 12: Scraping and Crawling
+Lecture 13: Caching for Scraping
+Lecture 14: Maps with Plotly
+Lecture 15: Databases and SQL
+Lecture 16: More WHERE, Relations and JOINS
+Lecture 17: Creating and Updating Databases
+Lecture 18: SQL Aggregation
+Lecture 19: Multiple Joins
+Lecture 20: Inserts and Updates with Relations
+Lecture 22: Flask, Virtualenvs
+Lecture 23: Templates with Flask
+Lecture 24: Models and Forms
+Lecture 25: More Flask + Heroku
+---------------------------------------------------------
+  Project 1: 获取itunes的歌曲、电影等媒体文件
+    Implement and Test a class system:
+      利用OOP原则创造类，Media和Song/Movie,然后修改一些内置函数init,str,len
+    Create objects from JSON:
+      通过JSON创造对象（在类中实现）
+    Create objects from iTunes API:
+      从itunes API中创造对象，并且一一对应，比如电影用Movie的class封装
+    Create an interactive search interface:
+      做可交互界面，并且优雅的处理错误那种
+    Unit Test:
+      创造Test Cases: 3 test functions, 15 assertions
+---------------------------------------------------------
+  Project 2: 用爬虫爬下NPS网站的信息
+    Part 1:
+      Implement basic searching by state and creation of NationalSites
+      with name and type:
+        创造NationalSite的类，保存其type, name, desc和url和其Detail
+      Implement adding address information to NationalSites by Crawling:
+        利用BeautifulSoup到网站上爬取制定的信息
+      Implement __str__() as specified:
+        写好类中的内置函数__str__()
+      Add caching so that you never have to visit a page on the nps site
+      more than once:
+        将每个网站都存放在cache中，使其不用再次的加载
+    Part 2:
+      Return a list of up to 20 NearbyPlaces:
+        利用GoogleAPI搜索其姓名和类型确定该地点的经度和维度
+        利用GoogleAPI通过经度和维度寻找周边的场所,并将其放入NearbyPlace这个类中
+      Adding caching so that you only do a particular nearby search once
+    Part 3:
+      Correct implementation of plot_sites_for_states(state_abbr):
+        利用Plotly module去绘制州中national park分布图
+      Correct implementation of plot_nearby_for_site(site_object):
+        利用Plotly module去绘制该地点以及其周边景点的分布图
+    Part 4:
+      Make the program interactive.
+        利用Python的input和print做简单的交互界面，可以输入简单的指令，并且优雅的处理错误
+---------------------------------------------------------
+  Project 3: 保存Chocolate的信息并在数据库里进行复杂搜索
+    Part 1: Populating the Database
+      Read all data from CSV into Bars table:
+        将CSV文件通过CSV reader读出并且利用代参insert语句写入数据库中
+      Read all data from JSON into Countries table:
+        将JSON文件读入并且利用代餐insert语句写入数据库中
+      Insert correct keys to model relationships:
+        创造数据库并且创造chocolate和country的table,并且使其有主键和外键
+    Part 2: Implement Query Interface
+      Implement Commands with all parameters:
+        利用process_command去处理不同的command
+        通过命令给定的几个参数进行SQL复杂搜索语句的生成，并且进行搜索并返回结果
+    Part 3: Interactive Capabilities
+      Graceful error handling:
+        利用list来确定一个指令是否为好的指令，如果是的话进入process_command
+      Presentable Output:
+        利用format使得输出规范正确
+---------------------------------------------------------
+  Final Project: Hearthstone deck analyze
+    Part 1: Get Data
+      利用BeautifulSoup在http://www.hearthstonetopdecks.com/网站爬取卡组信息、卡牌信息、套牌信息
+      把卡组信息、卡牌信息、套牌信息利用JSON的形式保存在本地
+      利用cache将爬过的网页保存于本地，不用每次都再爬
+    Part 2: Database
+      创建Hearthstone.db和cards\decks\heros\compositions等table
+      将JSON形式存在的卡组信息、卡牌信息、套牌信息导入进数据库
+    Part 3: DataProcessing
+      编写函数通过命令给定的几个参数进行SQL复杂搜索语句的生成，并且进行搜索
+      返回TOP10deck\crystal usage\attack and health\race composition等结果
+    Part 4: Test
+      编写UnitTest测试以上几部分的函数
+    Part 5: DataPresentation
+      利用Flask技术通过plotly和网页的形式表现数据

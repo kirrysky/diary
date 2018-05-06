@@ -1,0 +1,278 @@
+=========================================================
+588 Fundamentals of Human Behavior
+适用方向：UX
+课程属性：paper + exam base
+
+课程内容
+---------------------------------------------------------
+  Lecture 1: Information Processing and Motor Performance
+    主要内容:我们如何与电脑交互
+    Cognition/Response Selection/Response Execution
+    1. Ballistic vs. Controlled movement(Speed/Accuracy TradeOff)
+      Fitts' Law
+    2.Hick-Hyman's Law (Stimulus-Response Mapping)
+    3.With Thumbs
+    4. Keystroke-Level Model(KLM)
+      K=key stroking
+      P=pointing
+      H=homing
+      D=drawing
+      M=one mental operator
+      R=System Response operator
+      TEXECUTE=tK+tP+tH+tD+tM+tR
+---------------------------------------------------------
+  Lecture 2: Perception
+    主要内容:我们如何感知电脑的内容
+    Perception
+    1. Senses for HCI
+      Vision/Audition/Touch/Proprioception(sense of bodily position)
+      (Smell)/(Taste)
+    2. Color Perception
+      Rods&Cones:Afterimages(视觉暂留效果)
+      Opponent Process Theory:对比色混合效果
+      Color Blindness
+      Color Constancy:同样的颜色在不同的背景下感知不同，比如那个白金和蓝黑的衣服
+      Color Discrimination:Paleness/Size/Separation
+    3.Foveal and Peripheral Vision
+      Resolution of Visual Field: 越在中间分辨率越高
+      Value of the Periphery:Detecting motion/Planning eye movement
+      Eye Movement Tracking
+      Implications: Big/Bright/Moving/POP-OUT!
+    4.Low Level Feature Analysis
+      Color/Shape/Texture/Motion/Stereoscopic Depth
+      Implications: Size/Color/Orientation/Shape
+    5. Visual Structure
+      Proximity/Similarity/Continuity/Closure/Symmetry
+      Figure/Ground
+      Common Fate(一起动的为一组)
+---------------------------------------------------------
+  Lecture 3: Attention
+    主要内容:我们如何保持注意力
+    Attention Resource -> Perception/Response Execution
+    Attention Resource <- Thought/Decision Making
+    1. Visual Search
+      Top Down VS. Bottom Up Processing(一个个找 VS POP-OUT!)
+      T=(N*I)/2 有逻辑的好找
+      人们对一个页面会首先关注左上方
+      Pop Out>Meaningful way search>Random
+    2. Attention
+      Selective Attention:Salience/Expectancy/Value/Effort
+        Bottom-Up Processing: Salience
+        Top-Down Processing: Expectancy and Value
+        Both: Effort
+      Implication:
+        High Level: 我们不关注我们已知的东西/Context/目标导向和期望
+        Mid Level: Avoid Ambiguity/Be Consistent/Understand User Goals
+        Low Level: Visibility of Target/Cluttered Search/Structure Information
+    3.Multitasking
+      Resource Theory
+---------------------------------------------------------
+  Lecture 4: Memory,Learning and Individual Differences
+    1. Memory
+      1. How it works?
+      Working Memory->Long-term Memory
+      Working Memory:A temporary buffer for information currently in use
+      2. Characteristics of Working Memory
+      Small:7+2/Volatile
+      Implication:
+        chunking
+        phonological loop/visuospatial sketchpad
+        Repetition can lead to faulty recall
+      3. Characteristics of long-term Memory
+      Learning: the process of storing things in long term memory
+        Automatically:物品内在有逻辑
+        Through elaborative rehearsal:
+          Commits information to LTM
+          Associate new info with existing knowledge
+      Retrieval from LTM
+        Determined by Frequency and Recency of use
+        Associtations between item and other stuff in LTM
+      Learning Curve & Forgetting Curve
+      How we retrieve information?
+        Recognition VS recall
+      How we store information in LTM?
+        Schemas:比如一个狗,friendly\has tail
+        Scripts:比如步骤
+        Mental Models:比如自行车骑着可以往前
+        Cognitive maps:比如脑海中SI的地下地图
+    2. Individual Differences
+      Experiment图：
+        Minimal/Extensive Computer Experience
+        Ignorant/Knowledgeable about Domain
+        Novice/Expert User of System
+---------------------------------------------------------
+  Lecture 5: Thinking, Problem Solving, Mental Models
+             & Affordances
+    几乎要调动全部,除了Sensory Processing & Store
+    1. Prospective Memory: Remembering to Remember
+       Transative Memory: Knowing of who knows what
+       Situation Awareness: Perception->Understanding->Projection/Prediction
+       Metacoginition and Effort
+    2. Characteristics of Good Design
+       Discoverability & Understanding
+       Solution: Human-Center Design
+       Discoverability:
+          Affordances
+          Signifiers
+          Mappings
+          Feedback
+          Conceptual Models
+    3. How do people do things?
+       Gulfs of Execution and Evaluation
+       Goal: form the goal
+       Plan: the action
+       Specify: an action sequence
+       Perform: the action sequence
+       Perceive: the state of the world
+       Interpret: the perception
+       Compare: the outcome with the goal
+    4. Human Cognition and Emotion
+       Subconscious & Conscious
+       Visceral -> Behavioral -> Reflective
+       Visceral: subconscious, fast and automatic Quick Judgment
+       Behavioral: Well-learned and largely subconscious actions
+       Reflective: cognitive, deep and slow
+---------------------------------------------------------
+  Lecture 6: Motivation, Emotion and Habit
+    Motivation
+      Drive Reduction
+      Self-Actualization
+      Motivation as Arousal: The Yerkes-Dodson Law
+    Emotion
+      First, all emotions were innate
+      Then, emotions mainly learned via social reactions
+      Now, core set of innate emotions and other learned emotions
+    Habit
+      Trigger -> Action -> Feedback -> Reward
+---------------------------------------------------------
+  Lecture 7: Communication
+    1. Communication:
+      Communication is a collaborative activity
+      Communication requires common Ground
+      Communication is essential for joint action
+      Different media provide different "constraints on grounding"
+    2. Common Ground: what I know about what you know
+      Common language/ Common capabilities/ Common reference/ Common knowledge
+      Common vocabulary/ Protocol/ Culture/ History
+      1. Forms of Common Ground:
+        Conversational Conventions/ Communal Common Ground/ Personal Common Ground
+      2. Common Ground and Joint Action
+      3. Constraints on Ground
+        Copresence/ Visibility/ Audibility/ Contemporality/ Simultaneity
+        Sequentiality/ Reviewability/ Revisablity
+    3. People are polite to computers.
+      Grice's Maxims for Politeness: Quality/ Quantity/ Relevance/ Clarity
+      Designing Good Behavior:
+        Take an interest/ Be deferential/ Be forthcoming/ Use common sense
+        Anticipate your needs/ Be conscientious/ Not burden you with their personal problems
+        Keep you informed/ Be perceptive/ Be self-confident/ Not ask a lot of questions
+        Fail gracefully/ Know when to bend the rules
+---------------------------------------------------------
+  Lecture 8: Social Cognition
+    1. Who am I?
+      Self-Concept: Set of all an individual's beliefs about his/her personal qualities.
+      How do we know ourselves?
+        Learning who we are by observing our own behaviors.
+        Learning who we are from our thoughts and feeling.
+        Learning who we are from other people's reactions.
+        Learning who we are from social comparison.
+      Multiple Selves
+    2. Who am I Relative to You?
+      Self-categorization
+      Social Identity
+      In-group VS. Out-group Process:
+        People we think are like us we place in the in-group
+        People we think are not like us we place in the out-group
+        In-groups can become social groups
+    3. Interaction with Others
+      Norms and Conformity
+      Public vs Private Conformity
+      Groupthink
+      Group Decision Making
+      Majority and Minority Influence
+      Conflict as a Source of Cognitive Growth
+      Shared Cognition/ Group Memory/ Communication and Linguistic Interaction
+---------------------------------------------------------
+  Lecture 9: Experience
+    Pragmatism
+    Phenomenology
+      Erlebnis: Conscious Experience
+      Erfahrung: Everyday Experience
+      Erlebnisse: Cumulative set of separate experience
+    Experience VS an Experience
+    Three levels of Experience: Why/ What/ How
+    Threads of Experience
+      Sensual
+      Emotional
+      Compositional
+      Spatio-temporal
+---------------------------------------------------------
+  Lecture 10: D Cog(Distributed Cognition)
+    1. Origin
+      Three Problems:
+        First problem: the approaches to studying human behavior were:
+          Based on theories of Cognitive & Social Psychology
+          Both were still primarily examined in experimental lab settings.
+        Second problem: identify the user
+        Third problem: cognition was in the head of individuals,
+          involving processing, storing and retrieving of information.
+      Summary:
+        1. Context and work practices were important to understanding behavior.
+        2. There are different types of users of a given system with unique goals
+           and needs.
+        3. Artifacts/tools are also used for cognition.
+    2. Solution: D Cog
+      1. Functional Description of a Cognitive System
+                                  System Memory
+                                      ↑
+                                      ↓
+Input → Sensory Mechanism  ←→  Information Processing ←→ Action Generation → Output
+
+      2. Cognitive Psychology View
+        Sensory -> Memory -> Information Processing -> Action Generator
+        Representation: the way in which a system stores knowledge about a domain
+        Representational Transformation: representation changes from one state to another
+        Cognition/Computation: The propagation of representational state across a variety
+          of [representational] media
+      3. Perform a D-Cog Analysis
+        Work Modeling
+          Problem/Project/Goal
+          Actors and Artifacts
+          Inputs and Outputs
+          Tools and Resources
+          Functional Unit Organization
+          Representation Generated/Transformed
+          Project Outcome
+          Breakdowns
+          Suggested Improvements
+
+Project内容：
+---------------------------------------------------------
+Project1: Happy Mahjong: An analysis of a happy game experience
+Intro:
+Happy Mahjong is an app for people to play mahjong on mobile devices.
+This app is not only aesthetic but also functional: it has a cute graphic design
+and allows people can play mahjong in different play modes and different levels.
+It is very popular in China now. And everyone who has played it, including me has
+a great experience with this app. In order to know why this app is so popular in
+China and how it creates a great experience, I analyze my experience with it via
+3 key concepts: Thumb-Size Targets, Visual Search, and Memory.
+
+  Thumb-Size Targets:牌的大小的设定
+  Visual Search:牌的顺序的设定，有些会亮POPOUT什么的
+  Memory: 声音+牌的重复，让你知道啥牌 VS 用过的牌放在桌子中间只需要recognition不用recall
+
+---------------------------------------------------------
+Project2: Hearthstone: A balance of entertainment and competence
+Intro:
+Hearthstone is a popular online turn-based board game, whose background is the world
+of Warcraft (another game produced by Blizzard Entertainment). This game was released
+by Blizzard Entertainment on 2014 and soon became popular all over the world. [1] The
+reason why it is so popular may be that all players, including me, have an enjoyable
+experience with this game. In order to know how it can create such an enjoyable
+experience, I analyze my experience with this game on iOS platform via 3 key concepts:
+Signifiers, Common Ground, and Social Comparison.
+
+  Signifiers:用绿色的外框标注一些可以做的操作，比如能用的卡标绿，快结束的时候“end turn”是绿的
+  Common Ground:炉石里面的台词，比如“Well Played”都是来自魔兽的英雄，这算是一种Common ground
+  Social Comparison:比较我的等级和对手的等级得知自己几斤几两

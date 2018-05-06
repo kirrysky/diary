@@ -1,0 +1,72 @@
+=========================================================
+582 Introduction to Interaction Design
+适用方向：UX
+课程属性：project base
+---------------------------------------------------------
+这个需要搞个作品集？？？probably...
+Overall:做设计是要去寻求一个解决方案
+---------------------------------------------------------
+项目名称:Zip Crit
+  选择一样东西去做客观的分析
+  What?这个东西是什么
+  Pros and Cons:找它的五个优缺点
+    exp. 它自身的优缺点
+         它在与人交互上的优缺点
+         使用它的时候，人与人交互中的优缺点
+         它与环境交互的优缺点
+  Social Impact:它的社会影响
+---------------------------------------------------------
+项目名称:Safety Cap安全帽
+  Step1: Project Design Problem Statement
+    1. Describe a specific neighborhood context
+    2. Summarize what is currently being done in local
+       neighborhood
+    3. Describe the essential functions a tool would need to
+       support this neighborhood in a robust way
+  Step2: Competitive Analysis(竞品分析)
+    1. Include four or more systems and articulates any deficiencies
+       and strengths in respect to your proposed work
+    2. "Bug List":
+        物品名
+        优点缺点*各个方面（比如做儿童物品要考虑 儿童、家长、产品本身、社会等因素）
+  Step3: Sketching Alternatives
+    Sketch 8 unique solutions, one in each square, writing a brief caption
+    for each to help someone else understand the idea each sketch conveys
+      * Focus on quantity not Equality
+      * No two ideas should be alike
+      * Include ideas from existing products or prior Research
+      * Every caption should include an active verb, conveying what the
+        solution does to address the problem
+  Step4: Sketching Alternatives: Part2
+    Sketch 5 workflows to help convey your design problem and solution.
+    You should draw one workflow in each square and write a brief caption
+    for each to help someone else understand the idea each sketch conveys.
+  Step5: Personas 用户画像
+    Develop 3 to 5 sample personas of sample users for your design. These
+    may be chosen to be particularly emblematic of the audience(s) you are
+    targeting. To make them as useful as possible, consider maximizing the
+    diversity of characteristics amongst the personas to develop, such that
+    they are illustrative of a wide range of user needs, motivations, skill
+    levels and so forth.
+    For example, three of these personas should be "pro" personas (e.g. this
+    is who you are designing for) and at least one of these personas should
+    be an "anti" persona (this is who you are not designing for).
+  Step6: Story Mapping
+    Create a storymap of your project, creating tasks and a narrative flow.
+    Use your primary personas to capture variations of the tasks in the flow.
+      Define the Project
+      Write the narrative of the Project
+      Green post-its mean activities.
+      Yellow post-its mean core tasks.
+      Orange post-its mean minimum tasks.
+      Red post-its mean exceptions.
+  Step7: QOC (Design Synthesis & Design Defense)
+    Problem Statement
+    Target Audience
+    Target solutions
+      Select three features
+      Choose one critical features and analysis it
+      Choose three approach to realize it (Draw three pictures)
+      Write design rationale for each approach
+      Use QOC diagram to decide the final decision
+  Step8: Paper Prototype

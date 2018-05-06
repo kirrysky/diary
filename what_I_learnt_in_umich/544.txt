@@ -1,0 +1,135 @@
+=========================================================
+544 Introductory Statistic and Data Analysis
+适用方向：data
+课程属性：exam base
+---------------------------------------------------------
+  Lecture 1: Introduction and Basic Probability Theory
+    主要内容:学习基础的概率统计知识
+    1. 交集、并集啥的条件概率
+    2. Bayes' Theorem (Tree Diagram & prior/posterior probability)
+---------------------------------------------------------
+  Lecture 2: Summary Statistic, Random Variables, and Distributions
+    主要内容:学习一些衡量统计的指标
+    Summary statistic
+      1. Mean: Measures of Central Tendency
+          Represent a typical value if the list is symmetric and has a
+          single peak but isn't representative of a typical value if the list is
+          skewed or has multiple peaks.
+      2. Variance: Measures of Dispersion
+          This measure works well if the list is symmetric, but are distorted by
+          extreme values.(如果标准差大于平均值就不能作为measure of spread)
+    Random Variables
+      1.期望、方差和其关系
+    Distribution:
+      1.Binomial Experiment
+      2.Continuous Random Variables
+        PDF: probability density function
+        CDF: cumulative distribution function
+      3.Standard Normal Distribution
+---------------------------------------------------------
+  Lecture 3: Sample Mean and Confidence Intervals
+    主要内容：Sample Proportion/Population Proportion
+    Sample Proportion -> Population Proportion
+      mean: p
+      standard deviation:根号(p(1-p)/n)
+      confidence interval: 用R来算
+    Population Mean:
+      mean:μ
+      standard deviation: 西格玛/根号n
+---------------------------------------------------------
+  Lecture 4: Hypothesis Testing
+    Logical Framework
+      H0: null hypothesis that we think is false
+      Ha: alternate hypothesis that we think is actually true
+    Single Population Mean
+    Single Population Proportion
+    Comparing Two Population Means/Proportions
+    Paired Data
+    单边假设和双边假设
+---------------------------------------------------------
+  Lecture 5: Hypothesis testing and sample size calculations
+    Hypothesis Testing for "Equality": One Sample/Two Samples
+    The Chi-squared Distribution: Independence Testing
+    Type 1 Error & Sample Size Calculation
+---------------------------------------------------------
+  Lecture 6: Linear Regression
+    the Correlation Coefficient:衡量是否线性相关
+    the Equation of a Line
+    Interpretation of this model:
+      Intercept: represents the predicted price when income=0
+        note: sometimes it isn't meaningful
+      Slope: represents the predicted price increase when income goes by 1
+        Confidence Interval for Population Slope
+        Hypothesis Testing for Population Slope
+---------------------------------------------------------
+  Lecture 7: Predicting
+    Connection between Correlation and Slope:
+      b1=r*sdp(Y)/sdp(X)
+      SST: the total sum of squares
+      SSR: the sum of squares due to regression
+      R^2=(SST-SSR)/SST
+    Errors:
+      error (residual) standard deviation as s=根号(SSR/(n-2))
+      standard error for the slope b1 as s/根号(Σ(Xi-X拔)^2)
+      Standard Error for Regression Line
+    Confidence Bands for the Population Regression Line
+    Hypothesis Testing for the Regression Line
+    Standard Error for Predicted Value
+    Prediction Intervals
+    Probability Calculations for Predicted Values
+---------------------------------------------------------
+  Lecture 8: Dummy Variables
+    单组比较：
+      E(sales)= β0+ β1*(package == 1)
+      (package == 1)就是Dummy Variable
+    多组比较：Analysis of Variance(ANOVA)
+      E(mpg)= β0+ βE*(origin==“European”) + βJ*(origin==“Japanese”)
+    Analysis of Covariance
+      E(Time)=α0+α1(plant==1)+β0 Boxes+β1(plant==1)Boxes
+---------------------------------------------------------
+  Lecture 9: Spurious Correlation
+    Interpreting to remove Interaction Terms
+      1.There is no theoretical reason to believe that There is an
+        Interaction
+      2.Your sample size is large enough to detect interactions that are
+        large enough to make a practical difference
+      3.The interaction term isn't statistically significant and isn't large
+        enough to make a practical difference
+    Spurious Correlation -> Confounding Variables
+    Regression Assumptions:
+      1.The observations represent a representative sample from the population.
+      2.The observation are independent.
+      3.There is a linear relationship between the outcome and the predictors.
+      4.The errors have constant variance.
+      5.*（可有可无吧）The errors are normally distributed. This is not important
+        with large sample sizes
+    No-linear Relationship
+      1.Adding a Quadratic Term
+      2.Mean Centering
+      3.Non-constant Variance
+      4.Outliers
+      5.Leverage and Influence
+---------------------------------------------------------
+  Lecture 10: Multiple Regression, Collinearity and Model Selection
+    Simple and Multiple Regression Equations
+    Visualize Pairwise Relationship Before Modeling:
+      Scatterplot Matrix
+      Correlation Matrix
+    F-test for Regression
+    Collinearity: Independent Predictors（VIF）
+    Added Variable Plots
+    Residual Diagnostics
+      Residual Plots
+      QQ-Plot for Residuals
+      Plot residuals versus each predictor
+    Overfit
+    F-test for Nested Models
+---------------------------------------------------------
+  Lecture 11: Transformations
+    Square Root Transformation
+    Log Transformation
+    Log-log Model
+---------------------------------------------------------
+  Lecture 12: Logistic Regression and Linear Mixed Models
+    y=ex/(1+ex)
+    likelihood

@@ -1,0 +1,90 @@
+=========================================================
+630 Natural Language Processing: Algorithms and People
+适用方向：Data & Software Engineer
+课程属性：project base
+
+课程内容
+---------------------------------------------------------
+Lecture  1: Welcome to NLP
+            Introduction
+            Regular Expressions
+            Text Classification (Part 1):Naive Bayes
+Lecture  2: Supervised Text Classification
+            Text Classification (Part 2)
+            Logistic Regression
+            Neural Network
+Lecture  3: Language Models
+            Language Models
+            Recurrent Neural Networks
+Lecture  4: Word Vectors
+            Latent Semantic Analysis
+            Word Vectors (word2vec + GloVe)
+            Morphology
+Lecture  5: Sequence Labeling
+            Hidden Markov Models
+            Part of Speech Tagging
+            LSTM Networks
+Lecture  6: Syntax
+            Context-free parsing
+            Dependency parsing
+Lecture  7: Sequence to Sequence
+            Paraphrasing
+            Statistical Machine Translation
+            Neural Machine Translation
+Lecture  8: Unsupervised Learning
+            Brown Clustering
+            EM Algorithm
+            Topic Modeling
+Lecture 10: Learning From Text
+            Information Extraction
+            Natural Language Inference
+            Question Answering
+Lecture 11: Data Acquisition
+            Annotation
+            Crowdsourcing
+            Construction of Truth
+            Hypothesis Testing
+            Algorithmic Bias
+Lecture 12: Discourse
+            Chat bots
+            Coreference Resolution
+Lecture 13: Human Understanding of Language
+            Computational Sociolinguistics
+            Digital Humanities
+            Social NLP
+Lecture 14: Lexical Semantics
+            Entity Linking
+            Semantic Roles + Frames
+            Diachronic Change
+---------------------------------------------------------
+
+  我动过手的assignment:
+  Assignment  1: Regular Expressions
+  Assignment  2: Text Classification(Naive Bayes + Logistic Regression)
+  Assignment  3: Word Vectors
+  Assignment  4: Parsing
+  Assignment  5: Mini-assignment on Deep Learning(没做)
+  Assignment  6: Topic Modeling
+  Assignment  7: Crowdsourcing
+
+---------------------------------------------------------
+
+  Final Project: Emoji Prediction(Semantic Analysis)
+    Part 1: Clean Data
+      利用Regular Expression处理Tweets，删除其中的数字及标点符号
+      利用nltk模块将每条Tweets进行分词和并且用Lemmatizer进行词干化
+    Part 2: Feature Selection
+      使用TF-IDF技术初步处理数据
+      再使用sklearn中的SelectKbest的模块选择前排名前20000的特征
+    Part 4: Build Basic Model
+      使用sklearn中的各种Classifier进行各种分类
+      并且利用Metrics模块中Report功能看其分类结果，进行筛选
+      筛选出其中分数最高的的Basic Classification Model:Naive Bayes\Logistic Regression\SVM\KNN
+    Part 5: Build the Automatic Combined Classification
+      将Basic Classification Model的对每个Emoji的概率作为新的Features
+      首先按照论文中的方法搭建DecisionTree作为其High-Level Model进行预测,并进行结果分析
+      分析四个底层模型的利弊后决定只用Naive Bayes和Logistic Regression作为底层的Model
+      再分析High-Level模型，分析出了Naive Bayes是最适合的High-Level模型
+      最终牺牲了一部分的recall,但是模型的precision非常的高，达到了52%
+
+      《NLP-based Approach to Twitter User Classification》-Matt Bush

@@ -1,0 +1,27 @@
+
+2017Fall的学习经历
+=========================================================
+SI501 Contextual Inquiry
+SI544 Introductory Statistic and Data Analysis
+SI582 Introduction to Interaction Design
+SI588 Fundamentals of Human Behavior
+SI539 Complex Web Design
+
+2018Winter的学习经历
+=========================================================
+SI507 Intermediate Programming
+SI630 Nature Language Processing: Algorithms and People
+EECS494 Introduction to Game Development
+
+实习的项目
+银联的杭州地铁推广项目
+
+写SQL语句从银联大数据平台收集数据
+利用Excel表透视分析每日数据，为地推人员进行排名并提出建议
+整合每周数据，利用Python中的sklearn的Kmeans模块进行多次随机聚类
+利用R-studio及Excel分析聚类结果，分析杭州市银联地铁卖票的情况，撰写每周报告
+利用聚类后得出的优秀与一般时空点作为训练集进行训练，将一年中的地铁购票情况进行分类
+观察分类结果，利用R-studio从统计角度分析从推广项目开始以来的购票趋势并且撰写整个项目的年报告
+与市场部和科技部同事进行沟通与协调，协同帮助地推人员的布局和奖金的合理安排
+最高使用银联云闪付所售地铁票达到6.7万比，超越同时期支付宝所售地铁票数量
+该项目获得银联总部的优秀项目,所在团队被评选为优秀团队

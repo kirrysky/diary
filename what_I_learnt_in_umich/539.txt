@@ -1,0 +1,63 @@
+=========================================================
+539 Complex Web Design
+适用方向：UX
+课程属性：exam+project base
+---------------------------------------------------------
+前端课，主要目的就是给搞UX的他们搞个作品集。。。
+虽然学了以后他们还是用WIX= =仿佛有毒
+使用的是HTML5
+---------------------------------------------------------
+  Part 1: HTML\CSS的基础知识
+    https://learn.shayhowe.com/html-css/building-your-first-web-page/
+    1.Build Your First Page
+    2.Getting to Know HTML
+    3.Accessibility(代码要清晰:语义、结构)
+    4.Getting to Know CSS
+    5.Typography
+    6.Creating Lists
+    7.Adding Media
+    8.Organizing Data with Tables
+---------------------------------------------------------
+  Part 2: CSS的进阶知识
+    1.Complex Selectors
+    2.Opening the Box Model
+    3.Positioning Content
+    4.Design with Accessibility
+    5.Advanced Positioning
+    6.Backgrounds and Gradients
+---------------------------------------------------------
+  Part 3: Responsive Design & POUR
+    1.Responsive Design(几个屏幕的大小+打印模式)
+    2.POUR原则
+      1.Perceivable
+        指能支持各种感知方式，比如可以支持盲人使用这个网站
+        Sight/Hearing/Touch/Transformability
+      2.Operable
+        指各种交互方式，用户必须能找到并且能和其交互
+        User Control Over Timing and Time Limits
+        Error Recovery
+      3.Understandable
+        Meaning: 网站内容的易于理解
+        Functionality: The functionality of web content must
+        be understandable.指网站背后的逻辑易于理解
+      4.Robust
+        Functionality Across Current and Future Technologies
+        Using Technologies According to specification:
+          指有些各种浏览器、有些特殊浏览器不崩
+          其实还是背后的逻辑要清晰
+---------------------------------------------------------
+  Part 4: JavaScripts
+    1.表单的互动
+    2.动态相册
+    3.JQuary
+---------------------------------------------------------
+  Part 5: GAE
+    1.使用GAE
+    2.使用Jinja Template
+---------------------------------------------------------
+  Final Project: EventPro
+  基于你的定位和你的喜好给你推荐周边的活动
+  萌萌：设计整体页面布局+css(Responsive)
+  我：HTML的代码+前后端链接的JS代码
+  梦蝶：前端JS的代码、几个表单的链接转换、小动效
+  小辰：后端代码的实现和前后端的链接

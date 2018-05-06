@@ -1,0 +1,249 @@
+=========================================================
+EECS494 Introduction to Game Development
+适用方向：UX /  Software Development
+课程属性：project base
+
+课程内容
+---------------------------------------------------------
+Lecture  1: Bartok: Add mechanic + iteration
+Lecture  2: Intro to Unity: GameObject(A Collection of Components)
+            Collision/Trigger(Gloria)
+            Execution Ordering/Project Composition(Thomas)
+Lecture  3: P1 Classic Game Project
+            Tips+Tricks:
+            1. Take Advantage of Unity's Object-Component Model
+            2. Be consistent with how objects interact with each other
+            3. Use Debug
+            4. Understand MonoBehaviour Functions: Awake\Start\Update\LateUpdate\FixedUpdate
+            5. Understand Colliders vs. RigidBodies
+            6. Understand Collision Functions
+            7. Use Prefabs
+            8. Learn the Input Manager
+            9. Use Coroutines
+            10.Spend a little time to make your life easier in the future
+            11.Use ScriptableObjects
+            12.Use AnimationCurves
+            13.Organize Your Files
+            14.Use the Profiler
+            15.Use Version Control
+            Coroutine
+Lecture  4: Raycasting Workshop / Coroutine Workshop
+Lecture  5: Game Design Framework
+            1. Interesting Decision
+               Fewer Decisions/Trivial Decisions/Boring Decisions
+               More Decisions/Impactful Decisions/Interesting Decisions
+               How to Create Interesting Decision？
+                        1.Disrespecting player's time缩短时间，造成紧张
+                        2.Assuming Player Telepathy预测玩家动机并且逆其动机？
+                        3.Long-Winded Explanations
+            2. Player Guidance
+            3. Juice
+            4. Game Feel
+Lecture  7: Guiding the Player
+            1. 直接跟着
+            2. 文字注释
+Lecture  8: P2: Rapid Prototype Project
+            Juice https://www.youtube.com/watch?v=Fy0aCDmgnxg&index=1&list=PLZLAUZLSoLvyf28hW_nlj5HYrJs006GJR
+            Workshop: Renderers
+Lecture  9: Rich,Deep and Accessible Mechanics
+                        1.Hat mechanic: Super Mario Odyssey
+                        2.Hammer Mechanic: Getting Over it
+            Workshop: Controller Input devices
+            Workshop: Animation
+Lecture 11: UI Techniques
+                        1.Complex UI+Scaling UI with resolution
+                        2.Raycasting into world + converting world position to UI composition
+            VR/AR
+Lecture 12: Mario Party: Effective Tutorials
+            Informative: Mechanics, objectives, actors, settings
+            Time-efficient
+            "Show, don't tell"
+            Just-in-time
+            Multiplayer Robust
+            EXP. Mario Party Game
+                        1.Setting
+                        2.Actors
+                        3.Mechanics
+                        4.ReadyUp
+                        5.GamePlay
+                        6.Results
+Lecture 13: 去听企业宣讲会一个VR一个AR
+Lecture 14: P3: Showcase Game
+            EXP. Prehistoric Panic Example
+            High-Level Schedule
+                        Prototype: Experiments/Risky Ideas/Theming/Goal:"Find the fun"
+                        Expend: Exploration/Playtesting/Goal:"Expend the fun"
+                        Polish: Professionalism/Juice/Theming/Marketing/Goal:Presentability
+            Business Analysis Tools : LootBoxes
+                        Ecosystem Map
+                        Value-Chain
+Lecture 16: Lec: Playtesting
+            Lec: Games as Art
+            Q&A: Riot Games
+Lecture 17: Lec: Games as Art
+            Lec: Game Feel - Movement
+            Lec: Business Analysis Tools
+Lecture 19: 1.Mini Lecture: Guiding the Player 2
+             Initial Questions:
+                        Who: Who/what am I?
+                        What:What is the goal of the game?
+                        How: What are the controls?
+                             What are the mechanics that will help me accomplish the goal?
+             Follow Up Questions:
+                        What: What is going on right now?
+                              What is my progress to the goal?
+                        How: Are the controls I am using doing what I think they are?
+             Method 1: Create a Separate "Tutorial Mode"
+             Method 2: Add Guidance to the ReadyUp Screen
+             Method 3: In-Game Guidance
+             Method 4: Use Cut Scenes
+            2.UX & Game Design:
+             Bad EXP. Superman 64
+              Controls
+              StoryLine
+              Implementation
+              Theming
+              Player Goals
+             Good EXP. OverWatch
+              Emphasize Teamwork
+              Make it Accessible and Inviting
+              "Play By Sound"
+              Peak-End Rule
+             1.The Player is ALWAYS right..
+             2.Don't Make Us Think
+             3.Take Advantage of Everything You Have
+             4.Check for Continuity & Consistency
+             5.Make Every Decision Intentional!
+            3.Feedback Loops 比如说游戏结尾的特殊时刻，会掉特别多金币那种，然后有人可以反败为胜
+Lecture 21: Elements of Professionalism in Video Game Development
+             Scene Transitions
+             Background / Skyboxes
+             Smooth, Joicy Cameras
+             Lack of Camera Jitter
+             Color Palettes
+             Audio / Sound Feedback
+            Workshop: Shader
+                      Post Processing Stack
+
+Projects
+---------------------------------------------------------
+Project 1: P1 Classic Game Project
+ 复刻86年版Zelda并且做Custom Level
+ Development:
+  Preparation:
+   Play Original Game
+   Complete Zelda Template Tutorial
+   Set Up P1 Project Management
+  Player Character:
+   Grid-based movement
+   Sword
+   Health + Damage
+   Collectable Power-Ups
+   Bow
+   Boomerang
+   Bomb
+   Some way to switch weapons
+   Invincibility/ Infinite Keys/ Bomb/ Rupees Cheat
+   Functional Player Aesthetics
+  Enemies:
+   Stalfos/Keese/Goriya/Blade Trap/Gel/Wallmaster/Aquamentus
+  EnvironmentL
+   Room Transitions
+   Locked Doors + Keys
+   Water Tiles
+   Pushable Blocks
+   2D Bow Room
+   Old-Man Room(with dialogue)
+   Authentic Enemy + Item Placement + Level Progression
+  Misc:
+   Audio/ Sound
+  Research:
+   对游戏机理的探索
+---------------------------------------------------------
+Project 2: P2 Rapid Prototype Project
+ 做了一个暗黑系的塔防游戏
+ 确定塔防主题，设计初步模型
+ 玩并比较三款塔防游戏来汲取想法:植物大战僵尸、Digfender、桌面塔防
+ 利用C#来编写部分GameObject的脚本
+ 利用Unity Animation来制作各个GameObject的动画及其转换
+ 研究如何将这个游戏变得好玩，实现各种Mechanics并且找人play test
+ 实现游戏的多平台上线
+---------------------------------------------------------
+Project 3: P3 Showcase Game - Hello,World!
+ 做了一个可爱暗黑系的逃生VR+手柄游戏
+ 确定要做VR+Controller,初步确定主题
+ 利用C#来编写部分GameObject的脚本
+ 利用Unity Animation来制作各个GameObject的动画及其转换
+ 和队友进行每周两次的开会，并且制定每周的计划
+ 利用360Controller的模块来进行Controller部分的实现
+ 利用Oculus的OVRController的模块来进行VR部分的实现
+ 每周固定做一次Playtest收集用户体验的信息并且改进
+ 做Gatherer的tutorial,使其非常紧凑具有逻辑性
+ 做Ready Up的场景，并且使其富有故事性
+ 作为优秀作品参加密西根毕业设计展
+ 作为优秀作品参加密西根游戏展展出
+ 实现游戏的多平台上线
+ 最终发布在 https://studioxyz.itch.io/helloworld
+ 
+
+做Research:
+Lovers in a Dangerous Spacetime - The BattleBlock Theater
+Cooperate:
+ 1.Use some small mechanisms, such as help other press the button.
+ 2.Division of labour
+ 1 is more flexible than 2
+Aims:
+ 1.Two aims: 1.Collecting enough "love" 2.keeping the ship works
+ 2.Collect enough gems to pass the Game
+ In 1, people need to make a balance between these two goals.
+Enemies:
+ 1.All very big and can attack the spaceship, not individual people
+ 2.There are only some small Enemies
+ In 1, people must to cooperate together, but in 2 people can kill enemies by
+ themselves which makes people have less cooperative interactions.
+
+具体操作:
+===========
+MILESTONE 2
+Make tutorial more logical, leading players understand each mechanic one by one.
+Make tutorial map longer and restrict players activity range.
+Change color and plant layout of level 1 map.
+Move slowly after frozen and can not collect bubbles.
+Add bubble ship and make it fly after players enter it.
+Frozen players have to be released by yellow bubble by shooter, frozen can not automatically disappear.
+Add percentage display to the progress bar
+Gatherer invincibility time after being defrosted by Shooter
+
+=====
+ALPHA
+
+1. Gatherer too sensitive (lower acceleration)
+2. Change blue / purple, look similar
+3. Highlight bubble theming, add bubble ship to island and UI panel.
+4. Make forgiveness collider bigger.
+5. Shooter needs to build the ship and protect collectors by yellow and blue. Collector needs to collect yellow and blue, when attacted the resource will be lost into half.
+
+====
+BETA
+0. Changed name and theme to be more purposeful for players to understand
+1. New ready-up viz tutorial level, with the goal to teach the players main mechanics
+2. Added a visual indication of gatherer's inventory
+3. Updated Shooter ammo UI
+4. Added subtle animation effects to resources and the action of collecting
+5. New starting and ending cutscenes to help players know the story
+6. Animated scene transitions
+
+======
+POLISH
+1. Cut Scene edition and add music.
+2. Donít need to press button to deposit
+3. Reduce difficulty (add time)
+4. In the process applying in VR\
+5. Add beautiful UI
+
+====
+GOLD
+1. Add name and words of characters
+2. Make the tutorial clearer
+3. Add VR version of shooter
+4. Add haptic feedback
